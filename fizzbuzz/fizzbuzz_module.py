@@ -8,8 +8,6 @@ def fizzbuzz(number):
     else:
         return(number)
 
-
-
 def main():
     for number in range(1,101):
         print(number)
