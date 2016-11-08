@@ -1,8 +1,18 @@
 import datetime
-
+now = datetime.datetime.now()
 
 def years(age):
-    return
+    name = input ("Please enter your name : ")
+    age = int(input("Please enter your age : "))
+    year = (2016 + 100) - age
+    print (name, "will be 100 years old in the year", year)
+    while True :
+        n = input ("Please enter another number : ")
+        print (n)
+    else :
+        n = input ("Please enter another number : ")
+        print (n)
+        return()
 
 
 def main():
